@@ -1,0 +1,3 @@
+[{2022-11-24 15:28:22] [INFO ] [ClientController:29] Client(codCliente=2, nombre=Frank Alessandro, tipo=Empresarial, celular=968765423)
+[{2022-11-24 15:29:04] [INFO ] [ClientController:29] Client(codCliente=2, nombre=Frank Alessandro, tipo=Empresarial, celular=968765423)
+[2022-11-24 15:30:02] [INFO ] [ClientController:29] Client(codCliente=2, nombre=Frank Alessandro, tipo=Empresarial, celular=968765423)
