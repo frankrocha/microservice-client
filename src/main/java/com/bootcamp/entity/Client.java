@@ -1,5 +1,11 @@
 package com.bootcamp.entity;
 
+import java.util.Date;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,12 +15,16 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Document(collection = "client")
 public class Client {
 
-	private Long codCliente;
-	private String nombre;
-	private String tipo;
-	private String celular;
+	@Id
+	private ObjectId id;
+	private String codClient;
+	private String name;
+	private String phone;
+	private int category;
+	//private Date date_reg;
 
 	
 }
